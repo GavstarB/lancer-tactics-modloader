@@ -8,6 +8,8 @@ A mod loader for [Lancer Tactics](https://wick.itch.io/lancer-tactics), compatib
 - Place the `modloader` folder in the same directory as your game executable (i.e. `LancerTactics.exe` on Windows).
 - Run the Lancer Tactics executable with the parameters `--script modloader/modloader.gd`. I recommend doing this from a terminal so you can verify if the modloader and mods have loaded correctly. You should see `[Modloader Enabled]` and mod installation information in the terminal output. Ensure that your working directory is the same as the executable directory (i.e. if your executable is at `/path/to/LancerTactics.exe`, you may need to run `cd /path/to/` before running the command if you did not start the terminal in that directory).
 
+Users on MacOS will instead need to place the `modloader` folder in their game data directory (found at _Settings_ -> _Data_ in the game's menu) and start the game with the command `open -F -W Lancer\ Tactics.app --args --script /path/to/modloader/modloader.gd`, replacing `/path/to/` with the path to their game data directory.
+
 ## Where can I find Mods?
 - Mods made by **GavstarB** (me) can be found [here](https://github.com/GavstarB/lancer-tactics-mods).
 
