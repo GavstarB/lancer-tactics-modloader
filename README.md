@@ -1,3 +1,6 @@
+> [!WARNING]
+> Lancer Tactics now has official mod support! This modloader is now obsolete. It will receive no further updates and will not work with game versions v0.7.0 and later.
+
 # Lancer Tactics Modloader
 A mod loader for [Lancer Tactics](https://wick.itch.io/lancer-tactics), compatible with version v0.6.0.
 
@@ -14,6 +17,7 @@ A mod loader for [Lancer Tactics](https://wick.itch.io/lancer-tactics), compatib
 
 ## Where can I find Mods?
 - Mods made by **GavstarB** (me) can be found [here](https://github.com/GavstarB/lancer-tactics-mods).
+- **Darloth**'s Rebake Grunts can be found [here](https://github.com/darloth/lancer-tactics-rebake-grunts).
 
 ## How it works
 - `override.cfg` loads the `modloader/modloader.gd` script and runs it in the game's context. It uses this script to patch the `modloader/modloader.pck` file into the game. It then switches scene to a scene loaded from that file.
